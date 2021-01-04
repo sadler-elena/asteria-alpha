@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003BF85C25A130F7000D1EFC /* ChartBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF85B25A130F7000D1EFC /* ChartBase.swift */; };
+		003BF86025A1312C000D1EFC /* ChartCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF85F25A1312C000D1EFC /* ChartCircle.swift */; };
+		003BF86A25A13C95000D1EFC /* HouseSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF86925A13C95000D1EFC /* HouseSignView.swift */; };
+		005624B825A01BDB009D3FAB /* asteria_alphaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005624A525A01BD8009D3FAB /* asteria_alphaApp.swift */; };
+		005624B925A01BDB009D3FAB /* asteria_alphaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005624A525A01BD8009D3FAB /* asteria_alphaApp.swift */; };
+		005624BA25A01BDB009D3FAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005624A625A01BD8009D3FAB /* ContentView.swift */; };
+		005624BB25A01BDB009D3FAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005624A625A01BD8009D3FAB /* ContentView.swift */; };
+		005624BC25A01BDB009D3FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005624A725A01BDA009D3FAB /* Assets.xcassets */; };
+		005624BD25A01BDB009D3FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005624A725A01BDA009D3FAB /* Assets.xcassets */; };
+		005624E325A02174009D3FAB /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005624E225A02174009D3FAB /* ChartData.swift */; };
+		005624E425A02174009D3FAB /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005624E225A02174009D3FAB /* ChartData.swift */; };
+		005624E925A0248D009D3FAB /* ChartDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005624E825A0248D009D3FAB /* ChartDataManager.swift */; };
+		005624EA25A0248D009D3FAB /* ChartDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005624E825A0248D009D3FAB /* ChartDataManager.swift */; };
+		005624F025A0265E009D3FAB /* Elena2.json in Resources */ = {isa = PBXBuildFile; fileRef = 005624EF25A0265E009D3FAB /* Elena2.json */; };
+		005624F125A0265E009D3FAB /* Elena2.json in Resources */ = {isa = PBXBuildFile; fileRef = 005624EF25A0265E009D3FAB /* Elena2.json */; };
+		00E4373925A278D000B0251E /* CurvedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E4373825A278D000B0251E /* CurvedText.swift */; };
+		00E4373A25A278D000B0251E /* CurvedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E4373825A278D000B0251E /* CurvedText.swift */; };
+		00E4373E25A28A6900B0251E /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E4373D25A28A6900B0251E /* PlacementView.swift */; };
+		00E4373F25A28A6900B0251E /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E4373D25A28A6900B0251E /* PlacementView.swift */; };
+		00E4374225A29EEC00B0251E /* ChartBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF85B25A130F7000D1EFC /* ChartBase.swift */; };
+		00E4374525A29EF100B0251E /* ChartCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF85F25A1312C000D1EFC /* ChartCircle.swift */; };
+		00E4374825A29EF500B0251E /* HouseSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF86925A13C95000D1EFC /* HouseSignView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003BF85B25A130F7000D1EFC /* ChartBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBase.swift; sourceTree = "<group>"; };
+		003BF85F25A1312C000D1EFC /* ChartCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCircle.swift; sourceTree = "<group>"; };
+		003BF86925A13C95000D1EFC /* HouseSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseSignView.swift; sourceTree = "<group>"; };
+		005624A525A01BD8009D3FAB /* asteria_alphaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asteria_alphaApp.swift; sourceTree = "<group>"; };
+		005624A625A01BD8009D3FAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		005624A725A01BDA009D3FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		005624AC25A01BDB009D3FAB /* asteria alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "asteria alpha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		005624AF25A01BDB009D3FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005624B425A01BDB009D3FAB /* asteria alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "asteria alpha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		005624B625A01BDB009D3FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005624B725A01BDB009D3FAB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		005624E225A02174009D3FAB /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		005624E825A0248D009D3FAB /* ChartDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataManager.swift; sourceTree = "<group>"; };
+		005624EF25A0265E009D3FAB /* Elena2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Elena2.json; sourceTree = "<group>"; };
+		00E4373825A278D000B0251E /* CurvedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvedText.swift; sourceTree = "<group>"; };
+		00E4373D25A28A6900B0251E /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		005624A925A01BDB009D3FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005624B125A01BDB009D3FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003BF85A25A130DC000D1EFC /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				00E4373825A278D000B0251E /* CurvedText.swift */,
+				003BF85B25A130F7000D1EFC /* ChartBase.swift */,
+				003BF85F25A1312C000D1EFC /* ChartCircle.swift */,
+				003BF86925A13C95000D1EFC /* HouseSignView.swift */,
+				00E4373D25A28A6900B0251E /* PlacementView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		0056249F25A01BD8009D3FAB = {
+			isa = PBXGroup;
+			children = (
+				005624A425A01BD8009D3FAB /* Shared */,
+				005624AE25A01BDB009D3FAB /* iOS */,
+				005624B525A01BDB009D3FAB /* macOS */,
+				005624AD25A01BDB009D3FAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		005624A425A01BD8009D3FAB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				005624EF25A0265E009D3FAB /* Elena2.json */,
+				005624E725A0246F009D3FAB /* Managers */,
+				005624C925A01BF3009D3FAB /* Models */,
+				005624C825A01BE7009D3FAB /* Views */,
+				005624A525A01BD8009D3FAB /* asteria_alphaApp.swift */,
+				005624A625A01BD8009D3FAB /* ContentView.swift */,
+				005624A725A01BDA009D3FAB /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		005624AD25A01BDB009D3FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				005624AC25A01BDB009D3FAB /* asteria alpha.app */,
+				005624B425A01BDB009D3FAB /* asteria alpha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		005624AE25A01BDB009D3FAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				005624AF25A01BDB009D3FAB /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		005624B525A01BDB009D3FAB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				005624B625A01BDB009D3FAB /* Info.plist */,
+				005624B725A01BDB009D3FAB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		005624C825A01BE7009D3FAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				003BF85A25A130DC000D1EFC /* Chart */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		005624C925A01BF3009D3FAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				005624E225A02174009D3FAB /* ChartData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		005624E725A0246F009D3FAB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				005624E825A0248D009D3FAB /* ChartDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		005624AB25A01BDB009D3FAB /* asteria alpha (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005624C025A01BDB009D3FAB /* Build configuration list for PBXNativeTarget "asteria alpha (iOS)" */;
+			buildPhases = (
+				005624A825A01BDB009D3FAB /* Sources */,
+				005624A925A01BDB009D3FAB /* Frameworks */,
+				005624AA25A01BDB009D3FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "asteria alpha (iOS)";
+			productName = "asteria alpha (iOS)";
+			productReference = 005624AC25A01BDB009D3FAB /* asteria alpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		005624B325A01BDB009D3FAB /* asteria alpha (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005624C325A01BDB009D3FAB /* Build configuration list for PBXNativeTarget "asteria alpha (macOS)" */;
+			buildPhases = (
+				005624B025A01BDB009D3FAB /* Sources */,
+				005624B125A01BDB009D3FAB /* Frameworks */,
+				005624B225A01BDB009D3FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "asteria alpha (macOS)";
+			productName = "asteria alpha (macOS)";
+			productReference = 005624B425A01BDB009D3FAB /* asteria alpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		005624A025A01BD8009D3FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					005624AB25A01BDB009D3FAB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					005624B325A01BDB009D3FAB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 005624A325A01BD8009D3FAB /* Build configuration list for PBXProject "asteria alpha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0056249F25A01BD8009D3FAB;
+			productRefGroup = 005624AD25A01BDB009D3FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				005624AB25A01BDB009D3FAB /* asteria alpha (iOS) */,
+				005624B325A01BDB009D3FAB /* asteria alpha (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		005624AA25A01BDB009D3FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005624F025A0265E009D3FAB /* Elena2.json in Resources */,
+				005624BC25A01BDB009D3FAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005624B225A01BDB009D3FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005624F125A0265E009D3FAB /* Elena2.json in Resources */,
+				005624BD25A01BDB009D3FAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		005624A825A01BDB009D3FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E4373925A278D000B0251E /* CurvedText.swift in Sources */,
+				003BF86025A1312C000D1EFC /* ChartCircle.swift in Sources */,
+				00E4373E25A28A6900B0251E /* PlacementView.swift in Sources */,
+				003BF85C25A130F7000D1EFC /* ChartBase.swift in Sources */,
+				005624E925A0248D009D3FAB /* ChartDataManager.swift in Sources */,
+				003BF86A25A13C95000D1EFC /* HouseSignView.swift in Sources */,
+				005624BA25A01BDB009D3FAB /* ContentView.swift in Sources */,
+				005624E325A02174009D3FAB /* ChartData.swift in Sources */,
+				005624B825A01BDB009D3FAB /* asteria_alphaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005624B025A01BDB009D3FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005624EA25A0248D009D3FAB /* ChartDataManager.swift in Sources */,
+				005624BB25A01BDB009D3FAB /* ContentView.swift in Sources */,
+				00E4374525A29EF100B0251E /* ChartCircle.swift in Sources */,
+				00E4373F25A28A6900B0251E /* PlacementView.swift in Sources */,
+				005624B925A01BDB009D3FAB /* asteria_alphaApp.swift in Sources */,
+				005624E425A02174009D3FAB /* ChartData.swift in Sources */,
+				00E4373A25A278D000B0251E /* CurvedText.swift in Sources */,
+				00E4374225A29EEC00B0251E /* ChartBase.swift in Sources */,
+				00E4374825A29EF500B0251E /* HouseSignView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		005624BE25A01BDB009D3FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		005624BF25A01BDB009D3FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		005624C125A01BDB009D3FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R55AJ6UK3K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.elenasadler.asteria-alpha";
+				PRODUCT_NAME = "asteria alpha";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		005624C225A01BDB009D3FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R55AJ6UK3K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.elenasadler.asteria-alpha";
+				PRODUCT_NAME = "asteria alpha";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		005624C425A01BDB009D3FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R55AJ6UK3K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.elenasadler.asteria-alpha";
+				PRODUCT_NAME = "asteria alpha";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		005624C525A01BDB009D3FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R55AJ6UK3K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.elenasadler.asteria-alpha";
+				PRODUCT_NAME = "asteria alpha";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		005624A325A01BD8009D3FAB /* Build configuration list for PBXProject "asteria alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005624BE25A01BDB009D3FAB /* Debug */,
+				005624BF25A01BDB009D3FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005624C025A01BDB009D3FAB /* Build configuration list for PBXNativeTarget "asteria alpha (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005624C125A01BDB009D3FAB /* Debug */,
+				005624C225A01BDB009D3FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005624C325A01BDB009D3FAB /* Build configuration list for PBXNativeTarget "asteria alpha (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005624C425A01BDB009D3FAB /* Debug */,
+				005624C525A01BDB009D3FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 005624A025A01BD8009D3FAB /* Project object */;
+}

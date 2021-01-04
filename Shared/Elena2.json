@@ -1,0 +1,263 @@
+{
+  "house_data": {
+    "first_house": {
+      "sign": "Gemini",
+      "center_position": 255,
+      "sign_emoji": "\u264a",
+      "house_digit": "1"
+    },
+    "second_house": {
+      "sign": "Cancer",
+      "center_position": 225,
+      "sign_emoji": "\u264b",
+      "house_digit": "2"
+    },
+    "third_house": {
+      "sign": "Leo",
+      "center_position": 195,
+      "sign_emoji": "\u264c",
+      "house_digit": "3"
+    },
+    "fourth_house": {
+      "sign": "Virgo",
+      "center_position": 165,
+      "sign_emoji": "\u264d",
+      "house_digit": "4"
+    },
+    "fifth_house": {
+      "sign": "Libra",
+      "center_position": 135,
+      "sign_emoji": "\u264e",
+      "house_digit": "5"
+    },
+    "sixth_house": {
+      "sign": "Scorpio",
+      "center_position": 105,
+      "sign_emoji": "\u264f",
+      "house_digit": "6"
+    },
+    "seventh_house": {
+      "sign": "Sagittarius",
+      "center_position": 75,
+      "sign_emoji": "\u2650",
+      "house_digit": "7"
+    },
+    "eighth_house": {
+      "sign": "Capricorn",
+      "center_position": 45,
+      "sign_emoji": "\u2651",
+      "house_digit": "8"
+    },
+    "ninth_house": {
+      "sign": "Aquarius",
+      "center_position": 15,
+      "sign_emoji": "\u2652",
+      "house_digit": "9"
+    },
+    "tenth_house": {
+      "sign": "Pisces",
+      "center_position": 345,
+      "sign_emoji": "\u2653",
+      "house_digit": "10"
+    },
+    "eleventh_house": {
+      "sign": "Aries",
+      "center_position": 315,
+      "sign_emoji": "\u2648",
+      "house_digit": "11"
+    },
+    "twelfth_house": {
+      "sign": "Taurus",
+      "center_position": 285,
+      "sign_emoji": "\u2649",
+      "house_digit": "12"
+    }
+  },
+  "planet_data": [
+    {
+      "planet_name": "Sun",
+      "planet_sign": "Aquarius",
+      "actual_position": 4,
+      "circle_position": 26,
+      "planet_symbol": "\u2609"
+    },
+    {
+      "planet_name": "Moon",
+      "planet_sign": "Taurus",
+      "actual_position": 28,
+      "circle_position": 272,
+      "planet_symbol": "\u263e"
+    },
+    {
+      "planet_name": "Mercury",
+      "planet_sign": "Aquarius",
+      "actual_position": 12,
+      "circle_position": 18,
+      "planet_symbol": "\u263f"
+    },
+    {
+      "planet_name": "Venus",
+      "planet_sign": "Aquarius",
+      "actual_position": 6,
+      "circle_position": 24,
+      "planet_symbol": "\u2640"
+    },
+    {
+      "planet_name": "Mars",
+      "planet_sign": "Aries",
+      "actual_position": 4,
+      "circle_position": 326,
+      "planet_symbol": "\u2642"
+    },
+    {
+      "planet_name": "Jupiter",
+      "planet_sign": "Cancer",
+      "actual_position": 8,
+      "circle_position": 232,
+      "planet_symbol": "\u2643"
+    },
+    {
+      "planet_name": "Saturn",
+      "planet_sign": "Gemini",
+      "actual_position": 8,
+      "circle_position": 262,
+      "planet_symbol": "\u2644"
+    },
+    {
+      "planet_name": "Uranus",
+      "planet_sign": "Aquarius",
+      "actual_position": 24,
+      "circle_position": 6,
+      "planet_symbol": "\u2645"
+    },
+    {
+      "planet_name": "Neptune",
+      "planet_sign": "Aquarius",
+      "actual_position": 8,
+      "circle_position": 22,
+      "planet_symbol": "\u2646"
+    },
+    {
+      "planet_name": "Pluto",
+      "planet_sign": "Sagittarius",
+      "actual_position": 17,
+      "circle_position": 73,
+      "planet_symbol": "\u2647"
+    }
+  ],
+  "axis_lines": [
+    {
+      "name": "AC",
+      "actual_position": 26,
+      "circle_position": 244
+    },
+    {
+      "name": "IC",
+      "actual_position": 9,
+      "circle_position": 154
+    },
+    {
+      "name": "DC",
+      "actual_position": 26,
+      "circle_position": 64
+    },
+    {
+      "name": "MC",
+      "actual_position": 9,
+      "circle_position": 334
+    }
+  ],
+  "aspect_list": [
+    {
+      "planet_one_name": "Sun",
+      "planet_two_name": "Moon",
+      "aspect_name": "Trigon",
+      "aspect_orb": -6,
+      "aspect_aid": 120
+    },
+    {
+      "planet_one_name": "Sun",
+      "planet_two_name": "Mercury",
+      "aspect_name": "Conjuction",
+      "aspect_orb": 8,
+      "aspect_aid": 0
+    },
+    {
+      "planet_one_name": "Sun",
+      "planet_two_name": "Venus",
+      "aspect_name": "Conjuction",
+      "aspect_orb": 2,
+      "aspect_aid": 0
+    },
+    {
+      "planet_one_name": "Sun",
+      "planet_two_name": "Mars",
+      "aspect_name": "Sextil",
+      "aspect_orb": 0,
+      "aspect_aid": 60
+    },
+    {
+      "planet_one_name": "Sun",
+      "planet_two_name": "Saturn",
+      "aspect_name": "Trigon",
+      "aspect_orb": 5,
+      "aspect_aid": 120
+    },
+    {
+      "planet_one_name": "Moon",
+      "planet_two_name": "Saturn",
+      "aspect_name": "Conjuction",
+      "aspect_orb": 10,
+      "aspect_aid": 0
+    },
+    {
+      "planet_one_name": "Mercury",
+      "planet_two_name": "Venus",
+      "aspect_name": "Conjuction",
+      "aspect_orb": 6,
+      "aspect_aid": 0
+    },
+    {
+      "planet_one_name": "Mercury",
+      "planet_two_name": "Saturn",
+      "aspect_name": "Trigon",
+      "aspect_orb": -4,
+      "aspect_aid": 120
+    },
+    {
+      "planet_one_name": "Venus",
+      "planet_two_name": "Mars",
+      "aspect_name": "Sextil",
+      "aspect_orb": -2,
+      "aspect_aid": 60
+    },
+    {
+      "planet_one_name": "Venus",
+      "planet_two_name": "Jupiter",
+      "aspect_name": "Quincunx",
+      "aspect_orb": 2,
+      "aspect_aid": 150
+    },
+    {
+      "planet_one_name": "Venus",
+      "planet_two_name": "Saturn",
+      "aspect_name": "Trigon",
+      "aspect_orb": 2,
+      "aspect_aid": 120
+    },
+    {
+      "planet_one_name": "Mars",
+      "planet_two_name": "Jupiter",
+      "aspect_name": "Square",
+      "aspect_orb": 4,
+      "aspect_aid": 90
+    },
+    {
+      "planet_one_name": "Jupiter",
+      "planet_two_name": "Saturn",
+      "aspect_name": "Semisextil",
+      "aspect_orb": 0,
+      "aspect_aid": 30
+    }
+  ]
+}
