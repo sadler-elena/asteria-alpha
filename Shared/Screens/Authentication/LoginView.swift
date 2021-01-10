@@ -19,14 +19,16 @@ struct LoginView: View {
                 Text("login")
                     .font(.custom(Fonts.quicksandBold, size: 50))
                     .padding(.bottom, 6)
-                DashedLine()
+                Line()
                     .stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
                     .frame(width: 116, height: 1)
             }
             .padding(.bottom, 23)
             Group {
                 TextField("Email", text: $emailText)
+                    .font(.custom(Fonts.quicksandMedium, size: 18))
                 SecureField("Password", text: $passwordText)
+                    .font(.custom(Fonts.quicksandMedium, size: 18))
             }
             .padding()
             .background(Color(.systemGray6))

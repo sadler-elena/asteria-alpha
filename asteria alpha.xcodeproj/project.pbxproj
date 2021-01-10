@@ -45,8 +45,18 @@
 		C69584E425AAB58E001C01CF /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584E225AAB58E001C01CF /* constants.swift */; };
 		C69584EB25AAC519001C01CF /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584EA25AAC519001C01CF /* PrimaryButtonStyle.swift */; };
 		C69584EC25AAC519001C01CF /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584EA25AAC519001C01CF /* PrimaryButtonStyle.swift */; };
-		C69584F325AAC795001C01CF /* DashedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584F225AAC795001C01CF /* DashedLine.swift */; };
-		C69584F425AAC795001C01CF /* DashedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584F225AAC795001C01CF /* DashedLine.swift */; };
+		C69584F325AAC795001C01CF /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584F225AAC795001C01CF /* Line.swift */; };
+		C69584F425AAC795001C01CF /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584F225AAC795001C01CF /* Line.swift */; };
+		C6C45E0025AB6BF800ABAD00 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45DFF25AB6BF800ABAD00 /* AppTabBarView.swift */; };
+		C6C45E0125AB6BF800ABAD00 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45DFF25AB6BF800ABAD00 /* AppTabBarView.swift */; };
+		C6C45E0D25AB72D300ABAD00 /* ChartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45E0C25AB72D300ABAD00 /* ChartScreenView.swift */; };
+		C6C45E0E25AB72D300ABAD00 /* ChartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45E0C25AB72D300ABAD00 /* ChartScreenView.swift */; };
+		C6C45E1D25AB77D200ABAD00 /* FriendsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45E1C25AB77D200ABAD00 /* FriendsScreenView.swift */; };
+		C6C45E1E25AB77D200ABAD00 /* FriendsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45E1C25AB77D200ABAD00 /* FriendsScreenView.swift */; };
+		C6C45E2225AB77DB00ABAD00 /* SettingsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45E2125AB77DB00ABAD00 /* SettingsScreenView.swift */; };
+		C6C45E2325AB77DB00ABAD00 /* SettingsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45E2125AB77DB00ABAD00 /* SettingsScreenView.swift */; };
+		C6C45E2725AB77E500ABAD00 /* TransitsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45E2625AB77E500ABAD00 /* TransitsScreenView.swift */; };
+		C6C45E2825AB77E500ABAD00 /* TransitsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45E2625AB77E500ABAD00 /* TransitsScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,7 +84,12 @@
 		C69584D025AAB4F0001C01CF /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
 		C69584E225AAB58E001C01CF /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		C69584EA25AAC519001C01CF /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
-		C69584F225AAC795001C01CF /* DashedLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedLine.swift; sourceTree = "<group>"; };
+		C69584F225AAC795001C01CF /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		C6C45DFF25AB6BF800ABAD00 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		C6C45E0C25AB72D300ABAD00 /* ChartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartScreenView.swift; sourceTree = "<group>"; };
+		C6C45E1C25AB77D200ABAD00 /* FriendsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsScreenView.swift; sourceTree = "<group>"; };
+		C6C45E2125AB77DB00ABAD00 /* SettingsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenView.swift; sourceTree = "<group>"; };
+		C6C45E2625AB77E500ABAD00 /* TransitsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitsScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,11 +141,11 @@
 				005624C925A01BF3009D3FAB /* Models */,
 				C69584B825AAB360001C01CF /* Screens */,
 				C69584E125AAB580001C01CF /* Utilities */,
-				005624C825A01BE7009D3FAB /* Views */,
 				C69584E925AAC509001C01CF /* View Modifiers */,
+				005624C825A01BE7009D3FAB /* Views */,
+				005624A725A01BDA009D3FAB /* Assets.xcassets */,
 				005624A525A01BD8009D3FAB /* asteria_alphaApp.swift */,
 				005624A625A01BD8009D3FAB /* ContentView.swift */,
-				005624A725A01BDA009D3FAB /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -190,6 +205,11 @@
 			isa = PBXGroup;
 			children = (
 				C69584B925AAB3AD001C01CF /* Authentication */,
+				C6C45E0425AB723C00ABAD00 /* Chart */,
+				C6C45E1625AB772B00ABAD00 /* Friends */,
+				C6C45E1725AB772F00ABAD00 /* Settings */,
+				C6C45E1525AB772600ABAD00 /* Transits */,
+				C6C45DFF25AB6BF800ABAD00 /* AppTabBarView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -233,9 +253,41 @@
 		C69584F125AAC789001C01CF /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
-				C69584F225AAC795001C01CF /* DashedLine.swift */,
+				C69584F225AAC795001C01CF /* Line.swift */,
 			);
 			path = Shapes;
+			sourceTree = "<group>";
+		};
+		C6C45E0425AB723C00ABAD00 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				C6C45E0C25AB72D300ABAD00 /* ChartScreenView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		C6C45E1525AB772600ABAD00 /* Transits */ = {
+			isa = PBXGroup;
+			children = (
+				C6C45E2625AB77E500ABAD00 /* TransitsScreenView.swift */,
+			);
+			path = Transits;
+			sourceTree = "<group>";
+		};
+		C6C45E1625AB772B00ABAD00 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				C6C45E1C25AB77D200ABAD00 /* FriendsScreenView.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		C6C45E1725AB772F00ABAD00 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C6C45E2125AB77DB00ABAD00 /* SettingsScreenView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,17 +401,22 @@
 			files = (
 				C69584EB25AAC519001C01CF /* PrimaryButtonStyle.swift in Sources */,
 				00E4373925A278D000B0251E /* CurvedText.swift in Sources */,
+				C6C45E0025AB6BF800ABAD00 /* AppTabBarView.swift in Sources */,
 				003BF86025A1312C000D1EFC /* ChartCircle.swift in Sources */,
 				00E4373E25A28A6900B0251E /* PlacementView.swift in Sources */,
 				003BF85C25A130F7000D1EFC /* ChartBase.swift in Sources */,
 				C69584E325AAB58E001C01CF /* constants.swift in Sources */,
-				C69584F325AAC795001C01CF /* DashedLine.swift in Sources */,
+				C69584F325AAC795001C01CF /* Line.swift in Sources */,
+				C6C45E2725AB77E500ABAD00 /* TransitsScreenView.swift in Sources */,
+				C6C45E1D25AB77D200ABAD00 /* FriendsScreenView.swift in Sources */,
 				005624E925A0248D009D3FAB /* ChartDataManager.swift in Sources */,
 				003BF86A25A13C95000D1EFC /* HouseSignView.swift in Sources */,
 				005624BA25A01BDB009D3FAB /* ContentView.swift in Sources */,
 				005624E325A02174009D3FAB /* ChartData.swift in Sources */,
+				C6C45E0D25AB72D300ABAD00 /* ChartScreenView.swift in Sources */,
 				C69584C725AAB4BB001C01CF /* LoginView.swift in Sources */,
 				005624B825A01BDB009D3FAB /* asteria_alphaApp.swift in Sources */,
+				C6C45E2225AB77DB00ABAD00 /* SettingsScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,17 +426,22 @@
 			files = (
 				C69584EC25AAC519001C01CF /* PrimaryButtonStyle.swift in Sources */,
 				005624EA25A0248D009D3FAB /* ChartDataManager.swift in Sources */,
+				C6C45E0125AB6BF800ABAD00 /* AppTabBarView.swift in Sources */,
 				005624BB25A01BDB009D3FAB /* ContentView.swift in Sources */,
 				00E4374525A29EF100B0251E /* ChartCircle.swift in Sources */,
 				00E4373F25A28A6900B0251E /* PlacementView.swift in Sources */,
 				C69584E425AAB58E001C01CF /* constants.swift in Sources */,
-				C69584F425AAC795001C01CF /* DashedLine.swift in Sources */,
+				C69584F425AAC795001C01CF /* Line.swift in Sources */,
+				C6C45E2825AB77E500ABAD00 /* TransitsScreenView.swift in Sources */,
+				C6C45E1E25AB77D200ABAD00 /* FriendsScreenView.swift in Sources */,
 				005624B925A01BDB009D3FAB /* asteria_alphaApp.swift in Sources */,
 				005624E425A02174009D3FAB /* ChartData.swift in Sources */,
 				00E4373A25A278D000B0251E /* CurvedText.swift in Sources */,
 				00E4374225A29EEC00B0251E /* ChartBase.swift in Sources */,
+				C6C45E0E25AB72D300ABAD00 /* ChartScreenView.swift in Sources */,
 				C69584C825AAB4BB001C01CF /* LoginView.swift in Sources */,
 				00E4374825A29EF500B0251E /* HouseSignView.swift in Sources */,
+				C6C45E2325AB77DB00ABAD00 /* SettingsScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

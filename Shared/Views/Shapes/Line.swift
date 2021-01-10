@@ -1,5 +1,5 @@
 //
-//  DashedLine.swift
+//  Line.swift
 //  asteria alpha
 //
 //  Created by Jerry Turcios on 1/10/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DashedLine: Shape {
+struct Line: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
         path.move(to: CGPoint(x: 0, y: 0))
@@ -22,7 +22,7 @@ struct DashedLinePreviews: PreviewProvider {
             Text("login")
                 .font(.custom(Fonts.quicksandBold, size: 50))
                 .padding(.bottom, 6)
-            DashedLine()
+            Line()
                 .stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
                 .frame(width: 116, height: 1)
         }
