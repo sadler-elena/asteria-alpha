@@ -34,6 +34,7 @@ struct AppTabBarView: View {
             ZStack {
                 // Used to fill the bottom notch on some devices
                 Rectangle()
+                    .fill(Color.black)
                     .frame(minWidth: 0, maxWidth: .infinity, maxHeight: 70)
                     .offset(y: 60)
                 HStack {
