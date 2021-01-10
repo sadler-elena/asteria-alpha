@@ -29,6 +29,24 @@
 		00E4374225A29EEC00B0251E /* ChartBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF85B25A130F7000D1EFC /* ChartBase.swift */; };
 		00E4374525A29EF100B0251E /* ChartCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF85F25A1312C000D1EFC /* ChartCircle.swift */; };
 		00E4374825A29EF500B0251E /* HouseSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF86925A13C95000D1EFC /* HouseSignView.swift */; };
+		C69584C725AAB4BB001C01CF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584C625AAB4BB001C01CF /* LoginView.swift */; };
+		C69584C825AAB4BB001C01CF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584C625AAB4BB001C01CF /* LoginView.swift */; };
+		C69584D125AAB4F0001C01CF /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69584CC25AAB4F0001C01CF /* Quicksand-Bold.ttf */; };
+		C69584D225AAB4F0001C01CF /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69584CC25AAB4F0001C01CF /* Quicksand-Bold.ttf */; };
+		C69584D325AAB4F0001C01CF /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69584CD25AAB4F0001C01CF /* Quicksand-Medium.ttf */; };
+		C69584D425AAB4F0001C01CF /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69584CD25AAB4F0001C01CF /* Quicksand-Medium.ttf */; };
+		C69584D525AAB4F0001C01CF /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69584CE25AAB4F0001C01CF /* Quicksand-Regular.ttf */; };
+		C69584D625AAB4F0001C01CF /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69584CE25AAB4F0001C01CF /* Quicksand-Regular.ttf */; };
+		C69584D725AAB4F0001C01CF /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69584CF25AAB4F0001C01CF /* Quicksand-SemiBold.ttf */; };
+		C69584D825AAB4F0001C01CF /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69584CF25AAB4F0001C01CF /* Quicksand-SemiBold.ttf */; };
+		C69584D925AAB4F0001C01CF /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69584D025AAB4F0001C01CF /* Quicksand-Light.ttf */; };
+		C69584DA25AAB4F0001C01CF /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69584D025AAB4F0001C01CF /* Quicksand-Light.ttf */; };
+		C69584E325AAB58E001C01CF /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584E225AAB58E001C01CF /* constants.swift */; };
+		C69584E425AAB58E001C01CF /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584E225AAB58E001C01CF /* constants.swift */; };
+		C69584EB25AAC519001C01CF /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584EA25AAC519001C01CF /* PrimaryButtonStyle.swift */; };
+		C69584EC25AAC519001C01CF /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584EA25AAC519001C01CF /* PrimaryButtonStyle.swift */; };
+		C69584F325AAC795001C01CF /* DashedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584F225AAC795001C01CF /* DashedLine.swift */; };
+		C69584F425AAC795001C01CF /* DashedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584F225AAC795001C01CF /* DashedLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +66,15 @@
 		005624EF25A0265E009D3FAB /* Elena2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Elena2.json; sourceTree = "<group>"; };
 		00E4373825A278D000B0251E /* CurvedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvedText.swift; sourceTree = "<group>"; };
 		00E4373D25A28A6900B0251E /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		C69584C625AAB4BB001C01CF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C69584CC25AAB4F0001C01CF /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		C69584CD25AAB4F0001C01CF /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		C69584CE25AAB4F0001C01CF /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		C69584CF25AAB4F0001C01CF /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		C69584D025AAB4F0001C01CF /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		C69584E225AAB58E001C01CF /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		C69584EA25AAC519001C01CF /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		C69584F225AAC795001C01CF /* DashedLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +121,13 @@
 			isa = PBXGroup;
 			children = (
 				005624EF25A0265E009D3FAB /* Elena2.json */,
+				C69584CB25AAB4F0001C01CF /* Assets */,
 				005624E725A0246F009D3FAB /* Managers */,
 				005624C925A01BF3009D3FAB /* Models */,
+				C69584B825AAB360001C01CF /* Screens */,
+				C69584E125AAB580001C01CF /* Utilities */,
 				005624C825A01BE7009D3FAB /* Views */,
+				C69584E925AAC509001C01CF /* View Modifiers */,
 				005624A525A01BD8009D3FAB /* asteria_alphaApp.swift */,
 				005624A625A01BD8009D3FAB /* ContentView.swift */,
 				005624A725A01BDA009D3FAB /* Assets.xcassets */,
@@ -134,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				003BF85A25A130DC000D1EFC /* Chart */,
+				C69584F125AAC789001C01CF /* Shapes */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +184,58 @@
 				005624E825A0248D009D3FAB /* ChartDataManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		C69584B825AAB360001C01CF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C69584B925AAB3AD001C01CF /* Authentication */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C69584B925AAB3AD001C01CF /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C69584C625AAB4BB001C01CF /* LoginView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C69584CB25AAB4F0001C01CF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C69584CC25AAB4F0001C01CF /* Quicksand-Bold.ttf */,
+				C69584CD25AAB4F0001C01CF /* Quicksand-Medium.ttf */,
+				C69584CE25AAB4F0001C01CF /* Quicksand-Regular.ttf */,
+				C69584CF25AAB4F0001C01CF /* Quicksand-SemiBold.ttf */,
+				C69584D025AAB4F0001C01CF /* Quicksand-Light.ttf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C69584E125AAB580001C01CF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C69584E225AAB58E001C01CF /* constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C69584E925AAC509001C01CF /* View Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				C69584EA25AAC519001C01CF /* PrimaryButtonStyle.swift */,
+			);
+			path = "View Modifiers";
+			sourceTree = "<group>";
+		};
+		C69584F125AAC789001C01CF /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				C69584F225AAC795001C01CF /* DashedLine.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +317,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				005624F025A0265E009D3FAB /* Elena2.json in Resources */,
+				C69584D325AAB4F0001C01CF /* Quicksand-Medium.ttf in Resources */,
+				C69584D125AAB4F0001C01CF /* Quicksand-Bold.ttf in Resources */,
+				C69584D925AAB4F0001C01CF /* Quicksand-Light.ttf in Resources */,
+				C69584D725AAB4F0001C01CF /* Quicksand-SemiBold.ttf in Resources */,
 				005624BC25A01BDB009D3FAB /* Assets.xcassets in Resources */,
+				C69584D525AAB4F0001C01CF /* Quicksand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +331,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				005624F125A0265E009D3FAB /* Elena2.json in Resources */,
+				C69584D425AAB4F0001C01CF /* Quicksand-Medium.ttf in Resources */,
+				C69584D225AAB4F0001C01CF /* Quicksand-Bold.ttf in Resources */,
+				C69584DA25AAB4F0001C01CF /* Quicksand-Light.ttf in Resources */,
+				C69584D825AAB4F0001C01CF /* Quicksand-SemiBold.ttf in Resources */,
 				005624BD25A01BDB009D3FAB /* Assets.xcassets in Resources */,
+				C69584D625AAB4F0001C01CF /* Quicksand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +347,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69584EB25AAC519001C01CF /* PrimaryButtonStyle.swift in Sources */,
 				00E4373925A278D000B0251E /* CurvedText.swift in Sources */,
 				003BF86025A1312C000D1EFC /* ChartCircle.swift in Sources */,
 				00E4373E25A28A6900B0251E /* PlacementView.swift in Sources */,
 				003BF85C25A130F7000D1EFC /* ChartBase.swift in Sources */,
+				C69584E325AAB58E001C01CF /* constants.swift in Sources */,
+				C69584F325AAC795001C01CF /* DashedLine.swift in Sources */,
 				005624E925A0248D009D3FAB /* ChartDataManager.swift in Sources */,
 				003BF86A25A13C95000D1EFC /* HouseSignView.swift in Sources */,
 				005624BA25A01BDB009D3FAB /* ContentView.swift in Sources */,
 				005624E325A02174009D3FAB /* ChartData.swift in Sources */,
+				C69584C725AAB4BB001C01CF /* LoginView.swift in Sources */,
 				005624B825A01BDB009D3FAB /* asteria_alphaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,14 +367,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69584EC25AAC519001C01CF /* PrimaryButtonStyle.swift in Sources */,
 				005624EA25A0248D009D3FAB /* ChartDataManager.swift in Sources */,
 				005624BB25A01BDB009D3FAB /* ContentView.swift in Sources */,
 				00E4374525A29EF100B0251E /* ChartCircle.swift in Sources */,
 				00E4373F25A28A6900B0251E /* PlacementView.swift in Sources */,
+				C69584E425AAB58E001C01CF /* constants.swift in Sources */,
+				C69584F425AAC795001C01CF /* DashedLine.swift in Sources */,
 				005624B925A01BDB009D3FAB /* asteria_alphaApp.swift in Sources */,
 				005624E425A02174009D3FAB /* ChartData.swift in Sources */,
 				00E4373A25A278D000B0251E /* CurvedText.swift in Sources */,
 				00E4374225A29EEC00B0251E /* ChartBase.swift in Sources */,
+				C69584C825AAB4BB001C01CF /* LoginView.swift in Sources */,
 				00E4374825A29EF500B0251E /* HouseSignView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
