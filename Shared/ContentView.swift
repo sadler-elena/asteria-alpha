@@ -8,19 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
-    let chart = Bundle.main.decode("Elena2.json")
-    var body: some View {
-        ChartBase(chart: chart, size: 400)
-            .rotationEffect(.degrees(15))
+    @AppStorage("Token") private var token = "hello"
 
+    var body: some View {
+        if token.isEmpty {
+            LoginView()
+        } else {
+            AppTabBarView()
+        }
     }
 }
 
-
-
-
-
-struct ContentView_Previews: PreviewProvider {
+struct ContentViewPreviews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
