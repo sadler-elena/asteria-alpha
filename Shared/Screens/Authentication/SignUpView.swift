@@ -33,32 +33,13 @@ struct SignUpView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            // Navigation Bar
-            VStack(spacing: 0) {
-                HStack {
-                    Button(action: { presentationMode.wrappedValue.dismiss() }) {
-                        Image(systemName: "arrowshape.turn.up.backward.circle.fill")
-                            .font(.title)
-                            .foregroundColor(colorScheme == .light ? .black : .white)
-                    }
-                    Spacer()
-                    Text("sign up")
-                        .font(.custom(Fonts.quicksandBold, size: 30))
-                        .padding(.bottom, 4)
-                    Spacer()
-                    Image(systemName: "arrowshape.turn.up.backward.circle.fill")
-                        .font(.title)
-                        .foregroundColor(.black)
-                        .hidden()
-                }
-                .padding(.horizontal, 8)
-                Line()
-                    .stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
-                    .frame(minWidth: 0, maxWidth: .infinity, maxHeight: 1)
+            NavigationBarView(title: "sign up") {
+                NavigationBackButton()
+            } trailing: {
+                NavigationBackButton()
+                    .hidden()
             }
-
             ScrollView {
-                // Text Fields
                 TextField("First name", text: $firstNameText)
                     .disableAutocorrection(true)
                     .modifier(PrimaryTextFieldStyle(textSize: 18))
@@ -80,8 +61,6 @@ struct SignUpView: View {
                 .modifier(PrimaryTextFieldStyle(textSize: 18))
                 .padding(.horizontal)
                 .padding(.bottom, 8)
-
-                // Natal Data Inputs
                 VStack(spacing: 20) {
                     DatePicker("Date of birth", selection: $dateOfBirth)
                     NavigationLink(destination: CityInputView(cityOfBirth: $cityOfBirth)) {
@@ -96,8 +75,6 @@ struct SignUpView: View {
                 }
                 .font(.custom(Fonts.quicksandRegular, size: 20))
                 .padding()
-
-                // Create Button
                 Button(action: createButtonTapped) {
                     Text("create")
                         .modifier(PrimaryButtonStyle(textSize: 24, minHeight: 60))

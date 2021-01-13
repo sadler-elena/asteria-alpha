@@ -15,32 +15,15 @@ struct CityInputView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            // Navigation Bar
-            VStack(spacing: 0) {
-                HStack {
-                    Button(action: { presentationMode.wrappedValue.dismiss() }) {
-                        Image(systemName: "arrowshape.turn.up.backward.circle.fill")
-                            .font(.title)
-                            .foregroundColor(colorScheme == .light ? .black : .white)
-                    }
-                    Spacer()
-                    Text("city of birth")
-                        .font(.custom(Fonts.quicksandBold, size: 30))
-                        .padding(.bottom, 4)
-                    Spacer()
-                    Image(systemName: "arrowshape.turn.up.backward.circle.fill")
-                        .font(.title)
-                        .foregroundColor(.black)
-                        .hidden()
-                }
-                .padding(.horizontal, 8)
-                Line()
-                    .stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
-                    .frame(minWidth: 0, maxWidth: .infinity, maxHeight: 1)
+            NavigationBarView(title: "city of birth") {
+                NavigationBackButton()
+            } trailing: {
+                NavigationBackButton()
+                    .hidden()
             }
             VStack {
                 Spacer()
-                Text("Chart")
+                Text("City view")
                 Spacer()
             }
         }

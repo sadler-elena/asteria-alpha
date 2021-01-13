@@ -31,6 +31,8 @@
 		00E4374825A29EF500B0251E /* HouseSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF86925A13C95000D1EFC /* HouseSignView.swift */; };
 		C635DC4725AB9D8200A4A3FA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C635DC4625AB9D8200A4A3FA /* SignUpView.swift */; };
 		C635DC4825AB9D8200A4A3FA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C635DC4625AB9D8200A4A3FA /* SignUpView.swift */; };
+		C649AE0125AFA35F00BD48C9 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C649AE0025AFA35F00BD48C9 /* NavigationBarView.swift */; };
+		C649AE0525AFA42400BD48C9 /* NavigationBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C649AE0425AFA42400BD48C9 /* NavigationBackButton.swift */; };
 		C69584C725AAB4BB001C01CF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584C625AAB4BB001C01CF /* LoginView.swift */; };
 		C69584C825AAB4BB001C01CF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584C625AAB4BB001C01CF /* LoginView.swift */; };
 		C69584D125AAB4F0001C01CF /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69584CC25AAB4F0001C01CF /* Quicksand-Bold.ttf */; };
@@ -85,6 +87,8 @@
 		00E4373825A278D000B0251E /* CurvedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvedText.swift; sourceTree = "<group>"; };
 		00E4373D25A28A6900B0251E /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
 		C635DC4625AB9D8200A4A3FA /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		C649AE0025AFA35F00BD48C9 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		C649AE0425AFA42400BD48C9 /* NavigationBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBackButton.swift; sourceTree = "<group>"; };
 		C69584C625AAB4BB001C01CF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C69584CC25AAB4F0001C01CF /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
 		C69584CD25AAB4F0001C01CF /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				003BF85A25A130DC000D1EFC /* Chart */,
+				C649ADFF25AFA34A00BD48C9 /* Navigation */,
 				C69584F125AAC789001C01CF /* Shapes */,
 			);
 			path = Views;
@@ -211,6 +216,15 @@
 				005624E825A0248D009D3FAB /* ChartDataManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		C649ADFF25AFA34A00BD48C9 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C649AE0425AFA42400BD48C9 /* NavigationBackButton.swift */,
+				C649AE0025AFA35F00BD48C9 /* NavigationBarView.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		C69584B825AAB360001C01CF /* Screens */ = {
@@ -433,6 +447,7 @@
 				C69584E325AAB58E001C01CF /* constants.swift in Sources */,
 				C69584F325AAC795001C01CF /* Line.swift in Sources */,
 				C6C45E2725AB77E500ABAD00 /* TransitsScreenView.swift in Sources */,
+				C649AE0525AFA42400BD48C9 /* NavigationBackButton.swift in Sources */,
 				C6D2448E25AD0BA00042D4CF /* CityInputView.swift in Sources */,
 				C6C45E1D25AB77D200ABAD00 /* FriendsScreenView.swift in Sources */,
 				005624E925A0248D009D3FAB /* ChartDataManager.swift in Sources */,
@@ -442,6 +457,7 @@
 				C6C45E0D25AB72D300ABAD00 /* ChartScreenView.swift in Sources */,
 				C6DF8ABF25AD0F4600AEF1CA /* PrimaryTextFieldStyle.swift in Sources */,
 				C69584C725AAB4BB001C01CF /* LoginView.swift in Sources */,
+				C649AE0125AFA35F00BD48C9 /* NavigationBarView.swift in Sources */,
 				005624B825A01BDB009D3FAB /* asteria_alphaApp.swift in Sources */,
 				C6C45E2225AB77DB00ABAD00 /* SettingsScreenView.swift in Sources */,
 				C6D2449625AD0C240042D4CF /* Binding+Ext.swift in Sources */,

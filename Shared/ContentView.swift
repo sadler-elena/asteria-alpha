@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @AppStorage("Token") private var token = "hello"
+    @AppStorage("Token") private var token = ""
 
     var body: some View {
         if token.isEmpty {
