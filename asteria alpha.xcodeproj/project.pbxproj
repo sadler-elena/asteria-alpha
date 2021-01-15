@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0036A15225AF697D00955CD7 /* PlanetOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036A15125AF697D00955CD7 /* PlanetOrbit.swift */; };
+		0036A15325AF697D00955CD7 /* PlanetOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036A15125AF697D00955CD7 /* PlanetOrbit.swift */; };
 		003BF85C25A130F7000D1EFC /* ChartBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF85B25A130F7000D1EFC /* ChartBase.swift */; };
 		003BF86025A1312C000D1EFC /* ChartCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF85F25A1312C000D1EFC /* ChartCircle.swift */; };
 		003BF86A25A13C95000D1EFC /* HouseSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BF86925A13C95000D1EFC /* HouseSignView.swift */; };
@@ -60,6 +62,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0036A15125AF697D00955CD7 /* PlanetOrbit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOrbit.swift; sourceTree = "<group>"; };
 		003BF85B25A130F7000D1EFC /* ChartBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBase.swift; sourceTree = "<group>"; };
 		003BF85F25A1312C000D1EFC /* ChartCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCircle.swift; sourceTree = "<group>"; };
 		003BF86925A13C95000D1EFC /* HouseSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseSignView.swift; sourceTree = "<group>"; };
@@ -254,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				C69584F225AAC795001C01CF /* Line.swift */,
+				0036A15125AF697D00955CD7 /* PlanetOrbit.swift */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -411,6 +415,7 @@
 				C6C45E1D25AB77D200ABAD00 /* FriendsScreenView.swift in Sources */,
 				005624E925A0248D009D3FAB /* ChartDataManager.swift in Sources */,
 				003BF86A25A13C95000D1EFC /* HouseSignView.swift in Sources */,
+				0036A15225AF697D00955CD7 /* PlanetOrbit.swift in Sources */,
 				005624BA25A01BDB009D3FAB /* ContentView.swift in Sources */,
 				005624E325A02174009D3FAB /* ChartData.swift in Sources */,
 				C6C45E0D25AB72D300ABAD00 /* ChartScreenView.swift in Sources */,
@@ -436,6 +441,7 @@
 				C6C45E1E25AB77D200ABAD00 /* FriendsScreenView.swift in Sources */,
 				005624B925A01BDB009D3FAB /* asteria_alphaApp.swift in Sources */,
 				005624E425A02174009D3FAB /* ChartData.swift in Sources */,
+				0036A15325AF697D00955CD7 /* PlanetOrbit.swift in Sources */,
 				00E4373A25A278D000B0251E /* CurvedText.swift in Sources */,
 				00E4374225A29EEC00B0251E /* ChartBase.swift in Sources */,
 				C6C45E0E25AB72D300ABAD00 /* ChartScreenView.swift in Sources */,
