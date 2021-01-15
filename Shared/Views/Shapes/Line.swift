@@ -2,7 +2,7 @@
 //  Line.swift
 //  asteria alpha
 //
-//  Created by Jerry Turcios on 1/10/21.
+//  Created by Geraldine Turcios on 1/10/21.
 //
 
 import SwiftUI

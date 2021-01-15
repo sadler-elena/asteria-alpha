@@ -2,7 +2,7 @@
 //  constants.swift
 //  asteria alpha
 //
-//  Created by Jerry Turcios on 1/9/21.
+//  Created by Geraldine Turcios on 1/9/21.
 //
 
 import Foundation
