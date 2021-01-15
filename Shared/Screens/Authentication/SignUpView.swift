@@ -68,7 +68,7 @@ struct SignUpView: View {
                             Text("City of birth")
                                 .foregroundColor(Color(.label))
                             Spacer()
-                            Text("Unknown")
+                            Text(cityOfBirth.isEmpty ? "Select a city" : cityOfBirth)
                                 .foregroundColor(.blue)
                         }
                     }

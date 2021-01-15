@@ -51,6 +51,10 @@
 		C69584EC25AAC519001C01CF /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584EA25AAC519001C01CF /* PrimaryButtonStyle.swift */; };
 		C69584F325AAC795001C01CF /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584F225AAC795001C01CF /* Line.swift */; };
 		C69584F425AAC795001C01CF /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69584F225AAC795001C01CF /* Line.swift */; };
+		C6C2E28F25B1289300C6853B /* ATError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2E28E25B1289300C6853B /* ATError.swift */; };
+		C6C2E29025B1289300C6853B /* ATError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2E28E25B1289300C6853B /* ATError.swift */; };
+		C6C2E29625B12FB000C6853B /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2E29525B12FB000C6853B /* City.swift */; };
+		C6C2E29725B12FB000C6853B /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2E29525B12FB000C6853B /* City.swift */; };
 		C6C45E0025AB6BF800ABAD00 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45DFF25AB6BF800ABAD00 /* AppTabBarView.swift */; };
 		C6C45E0125AB6BF800ABAD00 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45DFF25AB6BF800ABAD00 /* AppTabBarView.swift */; };
 		C6C45E0D25AB72D300ABAD00 /* ChartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C45E0C25AB72D300ABAD00 /* ChartScreenView.swift */; };
@@ -65,6 +69,8 @@
 		C6D2448F25AD0BA00042D4CF /* CityInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2448D25AD0BA00042D4CF /* CityInputView.swift */; };
 		C6D2449625AD0C240042D4CF /* Binding+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2449525AD0C240042D4CF /* Binding+Ext.swift */; };
 		C6D2449725AD0C240042D4CF /* Binding+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2449525AD0C240042D4CF /* Binding+Ext.swift */; };
+		C6D77FA325B108C20090D5A5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D77FA225B108C20090D5A5 /* NetworkManager.swift */; };
+		C6D77FA425B108C20090D5A5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D77FA225B108C20090D5A5 /* NetworkManager.swift */; };
 		C6DF8ABF25AD0F4600AEF1CA /* PrimaryTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF8ABE25AD0F4600AEF1CA /* PrimaryTextFieldStyle.swift */; };
 		C6DF8AC025AD0F4600AEF1CA /* PrimaryTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF8ABE25AD0F4600AEF1CA /* PrimaryTextFieldStyle.swift */; };
 /* End PBXBuildFile section */
@@ -98,6 +104,8 @@
 		C69584E225AAB58E001C01CF /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		C69584EA25AAC519001C01CF /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 		C69584F225AAC795001C01CF /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		C6C2E28E25B1289300C6853B /* ATError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATError.swift; sourceTree = "<group>"; };
+		C6C2E29525B12FB000C6853B /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		C6C45DFF25AB6BF800ABAD00 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
 		C6C45E0C25AB72D300ABAD00 /* ChartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartScreenView.swift; sourceTree = "<group>"; };
 		C6C45E1C25AB77D200ABAD00 /* FriendsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsScreenView.swift; sourceTree = "<group>"; };
@@ -105,6 +113,7 @@
 		C6C45E2625AB77E500ABAD00 /* TransitsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitsScreenView.swift; sourceTree = "<group>"; };
 		C6D2448D25AD0BA00042D4CF /* CityInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityInputView.swift; sourceTree = "<group>"; };
 		C6D2449525AD0C240042D4CF /* Binding+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Ext.swift"; sourceTree = "<group>"; };
+		C6D77FA225B108C20090D5A5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C6DF8ABE25AD0F4600AEF1CA /* PrimaryTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryTextFieldStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -206,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				005624E225A02174009D3FAB /* ChartData.swift */,
+				C6C2E29525B12FB000C6853B /* City.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -214,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				005624E825A0248D009D3FAB /* ChartDataManager.swift */,
+				C6D77FA225B108C20090D5A5 /* NetworkManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -267,6 +278,7 @@
 			children = (
 				C6D2449425AD0C1C0042D4CF /* Extensions */,
 				C69584E225AAB58E001C01CF /* constants.swift */,
+				C6C2E28E25B1289300C6853B /* ATError.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -439,11 +451,13 @@
 			files = (
 				C69584EB25AAC519001C01CF /* PrimaryButtonStyle.swift in Sources */,
 				00E4373925A278D000B0251E /* CurvedText.swift in Sources */,
+				C6C2E29625B12FB000C6853B /* City.swift in Sources */,
 				C6C45E0025AB6BF800ABAD00 /* AppTabBarView.swift in Sources */,
 				003BF86025A1312C000D1EFC /* ChartCircle.swift in Sources */,
 				00E4373E25A28A6900B0251E /* PlacementView.swift in Sources */,
 				C635DC4725AB9D8200A4A3FA /* SignUpView.swift in Sources */,
 				003BF85C25A130F7000D1EFC /* ChartBase.swift in Sources */,
+				C6C2E28F25B1289300C6853B /* ATError.swift in Sources */,
 				C69584E325AAB58E001C01CF /* constants.swift in Sources */,
 				C69584F325AAC795001C01CF /* Line.swift in Sources */,
 				C6C45E2725AB77E500ABAD00 /* TransitsScreenView.swift in Sources */,
@@ -459,6 +473,7 @@
 				C69584C725AAB4BB001C01CF /* LoginView.swift in Sources */,
 				C649AE0125AFA35F00BD48C9 /* NavigationBarView.swift in Sources */,
 				005624B825A01BDB009D3FAB /* asteria_alphaApp.swift in Sources */,
+				C6D77FA325B108C20090D5A5 /* NetworkManager.swift in Sources */,
 				C6C45E2225AB77DB00ABAD00 /* SettingsScreenView.swift in Sources */,
 				C6D2449625AD0C240042D4CF /* Binding+Ext.swift in Sources */,
 			);
@@ -468,12 +483,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D77FA425B108C20090D5A5 /* NetworkManager.swift in Sources */,
 				C69584EC25AAC519001C01CF /* PrimaryButtonStyle.swift in Sources */,
 				005624EA25A0248D009D3FAB /* ChartDataManager.swift in Sources */,
 				C6C45E0125AB6BF800ABAD00 /* AppTabBarView.swift in Sources */,
 				005624BB25A01BDB009D3FAB /* ContentView.swift in Sources */,
 				00E4374525A29EF100B0251E /* ChartCircle.swift in Sources */,
+				C6C2E29725B12FB000C6853B /* City.swift in Sources */,
 				C635DC4825AB9D8200A4A3FA /* SignUpView.swift in Sources */,
+				C6C2E29025B1289300C6853B /* ATError.swift in Sources */,
 				00E4373F25A28A6900B0251E /* PlacementView.swift in Sources */,
 				C69584E425AAB58E001C01CF /* constants.swift in Sources */,
 				C69584F425AAC795001C01CF /* Line.swift in Sources */,
